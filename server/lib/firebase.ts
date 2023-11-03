@@ -4,7 +4,7 @@ import { getFirestore } from "firebase/firestore";
 //your firebase configuration goes here
 //https://firebase.google.com/docs/web/learn-more?authuser=0&hl=en#modular-version
 
-var const firebaseConfig = {
+var firebaseConfig = {
     apiKey: "AIzaSyBKetm8YvGUFOC3pxKfEcgNLfDI_CG2XBo",
     authDomain: "myliff-appth.firebaseapp.com",
     projectId: "myliff-appth",
