@@ -4,16 +4,15 @@ import { getFirestore } from "firebase/firestore";
 //your firebase configuration goes here
 //https://firebase.google.com/docs/web/learn-more?authuser=0&hl=en#modular-version
 
-// var firebaseConfig = {
-//   apiKey: "API_KEY",
-//   authDomain: "PROJECT_ID.firebaseapp.com",
-//   // The value of `databaseURL` depends on the location of the database
-//   databaseURL: "https://DATABASE_NAME.firebaseio.com",
-//   projectId: "PROJECT_ID",
-//   storageBucket: "PROJECT_ID.appspot.com",
-//   messagingSenderId: "SENDER_ID",
-//   appId: "APP_ID",
-// };
+var const firebaseConfig = {
+    apiKey: "AIzaSyBKetm8YvGUFOC3pxKfEcgNLfDI_CG2XBo",
+    authDomain: "myliff-appth.firebaseapp.com",
+    projectId: "myliff-appth",
+    storageBucket: "myliff-appth.appspot.com",
+    messagingSenderId: "221681194343",
+    appId: "1:221681194343:web:c4f24733f52e3e664b4bc2",
+    measurementId: "G-01JMJTMW9V"
+  };
 
 export const firebaseApp = initializeApp(firebaseConfig);
 
